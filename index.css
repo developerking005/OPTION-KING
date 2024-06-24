@@ -41,6 +41,21 @@ p {
   text-decoration: none;
   border-radius: 5px;
   font-size: 1.2em;
+  animation: glowing 1300ms infinite;
+}
+@keyframes glowing {
+    0% {
+      background-color: #209edd;
+      box-shadow: 0 0 5px  #209edd;
+    }
+    50% {
+      background-color: #195c7e;
+      box-shadow: 0 0 20px #195c7e;
+    }
+    100% {
+      background-color:  #209edd;
+      box-shadow: 0 0 5px #209edd;
+    }
 }
 
 .join-btn:hover {
